@@ -1,12 +1,36 @@
-# Running Project
-
-## Requirements
+## Game Plan
 
 Placeholder for new website using 
 
 - Backend Framework:  wagtail, django
 - Database: Postgres 
 - UI Frameworks:  TBD
+
+# Project setup
+
+## Requirements
+
+Project has been migrated to Python 3.x.  Please make sure you are using
+the correct version of python while executing.
+
+### Dependencies
+
+VirtualEnv
+
+```
+python3 -m venv env
+```
+
+### Install Dependencies.
+
+```bash
+pip3 install -r requirements.txt
+
+OR
+
+python3 -m pip install -r requirements.txt
+
+```
 
 ## Database
 
